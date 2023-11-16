@@ -1,0 +1,18 @@
+.sample-container{
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.chek-box-card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

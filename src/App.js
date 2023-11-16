@@ -1,9 +1,14 @@
-import PasswordManager from "./components/PasswordManager"
-import "./App.css"
+import React from 'react'
+import {BrowserRouter} from 'react-router-dom'
+import Sample from "./components/Sample"
+import './App.css'
 
-function App(){
-  return(
-    <PasswordManager/>
+function App() {
+  return (
+    <BrowserRouter>
+      <Sample/>
+    </BrowserRouter>
   )
 }
-export default App;
+
+export default App
